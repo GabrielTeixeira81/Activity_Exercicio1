@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    >
+
+    <EditText
+        android:id="@+id/editTextoCenter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:backgroundTint="@color/colorAccent"
+        android:textColor="#ffffff"
+        android:inputType="text"
+        android:text="Texto Nome"
+        android:maxLines="1"
+        android:maxLength="50"
+        android:padding="50dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextCenterLeft"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:backgroundTint="@color/colorAccent"
+        android:textColor="#ffffff"
+        android:inputType="text"
+        android:textAlignment="textStart"
+        android:text="Texto center/left"
+        android:maxLines="1"
+        android:maxLength="30"
+        />
+
+    <EditText
+        android:id="@+id/editTextBottomright"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:backgroundTint="#4657AF"
+        android:textColor="#ffffff"
+        android:inputType="text"
+        android:textAlignment="textEnd"
+        android:text="Texto botom/right"
+        android:maxLines="1"
+        android:maxLength="30"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+        <EditText
+            android:id="@+id/editTextCenterTop"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="350dp"
+            android:gravity="center_horizontal"
+            android:backgroundTint="@color/colorAccent"
+            android:inputType="text"
+            android:maxLength="20"
+            android:maxLines="1"
+            android:padding="80dp"
+            android:text="Texto center/top"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:id="@+id/editTextoBotom"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="350dp"
+            android:gravity="center_horizontal"
+            android:backgroundTint="#101F6B"
+            android:inputType="text"
+            android:maxLength="20"
+            android:maxLines="1"
+            android:padding="80dp"
+            android:text="Texto botom"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:backgroundTint="#3E51CE"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text="Enviar"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>
